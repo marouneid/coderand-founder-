@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wikipedia Viewer</title>
+
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<!-- begin wiki_bg -->
+	<div class="bg wiki_bg">
+		<div class="wiki text-center">
+			<h2>Wikipedia Viewer</h2>
+			<a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random" class="rendom ">Random Article</a>
+			<div class="search_form">
+				<form id="wiki" method="post">
+					<span class="input">
+					<input class="input__field input__field--yoko" type="text" id="input_text" />
+
+					<label class="input__label input__label--yoko" for="input_text">
+						<span class="input__label-content input__label-content--yoko">Type your search above</span>
+					</label>
+					<span id="search_btn"><i class="fa fa-search" aria-hidden="true"></i></span>
+					</span>
+
+				</form>
+			</div>
+			<ul class="result"></ul>
+
+		</div>
+    <footer class="text-center footer">
+    <div class="container">
+      Designed & Coded by <a href="https://www.linkedin.com/in/pavel-kryvytskyi-370720124" target="_blank">Pavel Kryvytskyi</a>
+    </div>
+  </footer>
+	</div>
+	<!-- end wiki_bg -->
+
+</body>
+</html>
